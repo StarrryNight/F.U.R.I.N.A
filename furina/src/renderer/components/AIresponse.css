@@ -1,0 +1,28 @@
+
+
+.airesponse-container {
+  max-width: 80vw;
+  min-height: 10vh;
+  max-height: 20vh; /* Always leave space at bottom */
+  overflow-y: auto;
+  background: rgba(223, 237, 255, 0.85);
+  color: #1f4b74;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  padding: 28px 32px;
+  margin-top: 10vh;
+  font-size: 1.1rem;
+  word-break: break-word;
+  transition: background 0.2s;
+  text-align: left;
+  margin: 0 auto 0px auto;
+  margin-left: 24px;
+  margin-right: 24px;
+  box-sizing: border-box;
+}
+
+
+
+.airesponse-container::-webkit-scrollbar {
+  display: none;
+} 

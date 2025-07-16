@@ -1,0 +1,49 @@
+.side-hover-area {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 20vh;
+  z-index: 100;
+  background: transparent;
+}
+
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 20vh;
+  background: rgba(10, 34, 66, 0.98);
+  box-shadow: 2px 0 16px rgba(0,0,0,0.2);
+  color: #fff;
+  z-index: 200;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(-40px);
+  transition: opacity 0.3s, transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+}
+
+.side-menu.open {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateX(0);
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-bottom: 1rem;
+  transition: color 0.2s;
+}
+.close-btn:hover {
+  color: #00eaff;
+} 
