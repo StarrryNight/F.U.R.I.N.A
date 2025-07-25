@@ -2,6 +2,7 @@
 
 **F.U.R.I.N.A** stands for *Fantastic Unreal Responsive Intelligent Networked Assistant*.
 This project is a cross-platform desktop AI assistant application, featuring a modern Electron/React frontend and a Python FastAPI backend that streams AI-generated responses.
+<img width="1080" height="1367" alt="image" src="https://github.com/user-attachments/assets/a3fca793-1187-4c3c-8d47-e48d8b639f84" />
 
 ---
 
